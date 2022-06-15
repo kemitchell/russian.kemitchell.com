@@ -1,2 +1,21 @@
-@media screen { html { font-family: "PT Sans", sans-serif; } }
-@media print { html { font-family: "PT Serif", serif; } }
+@media screen {
+  html { 
+    font-family: "PT Sans", sans-serif;
+  }
+  body {
+    margin: 0 auto;
+    max-width: 37rem;
+  }
+}
+
+@media print {
+  html {
+    font-family: "PT Serif", serif;
+  }
+  body {
+    columns: 3;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
+  }
+}
