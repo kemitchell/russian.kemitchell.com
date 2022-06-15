@@ -3,7 +3,7 @@
     font-family: "PT Sans", sans-serif;
   }
   body {
-    margin: 0 auto;
+    margin: 1rem auto 2rem auto;
     max-width: 37rem;
   }
 }
