@@ -11,6 +11,8 @@
 @media print {
   html {
     font-family: "PT Serif", serif;
+    font-size: 10pt;
+    line-height: 1.37;
   }
   body {
     columns: 3;
